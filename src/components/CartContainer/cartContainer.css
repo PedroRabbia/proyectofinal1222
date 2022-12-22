@@ -1,0 +1,35 @@
+.heading-2 {
+    padding-left: 13.5em;
+    font-size: 35px;
+    margin-bottom: 2em;
+    
+}
+
+.cart-noproducts {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.cart-noproducts .info {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid #000;
+    width: auto;
+}
+
+.cart-noproducts button {
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.btn-info{
+    background-color: transparent !important;
+    color: #000 !important;
+    border-radius: 0 !important;
+    border-color: #000 !important;
+}

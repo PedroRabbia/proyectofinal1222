@@ -1,0 +1,38 @@
+.nopage-container {
+    margin: 0 auto;
+    padding: 8em;
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+    
+    .nopage-container {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .nopage-container P:first-child {
+        font-size: 3.5em;
+        white-space: nowrap;
+        margin-bottom: 1em;
+    }
+
+    .nopage-container h3 {
+        font-size: 4.5em;
+        margin-bottom: 0.4em;
+    }
+    
+    .nopage-container p {
+        margin-bottom: 3em;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nopage-container button {
+        width: 15%;
+    }
+}
